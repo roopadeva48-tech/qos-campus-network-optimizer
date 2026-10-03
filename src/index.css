@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-theme-base text-theme-navy font-sans antialiased;
+  }
+}
+
+@keyframes rotateRing {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes floatLogo {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-6px); }
+}
+
+.animate-rotate-ring {
+  animation: rotateRing 8s linear infinite;
+}
+
+.animate-float-logo {
+  animation: floatLogo 2.5s ease-in-out infinite alternate;
+}
