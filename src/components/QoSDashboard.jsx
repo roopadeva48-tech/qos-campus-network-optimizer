@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQoSStore } from '../store/useQoSStore';
-import { Phone, Video, Globe, Download, Activity, CheckCircle2, AlertTriangle, ShieldCheck } from 'lucide-react';
+import { Phone, Video, Globe, Download, Activity, ShieldCheck } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 export default function QoSDashboard() {
@@ -14,7 +14,7 @@ export default function QoSDashboard() {
   };
 
   return (
-    <section className="bg-white border-1.5 border-theme-periwinkle rounded-xl p-6 shadow-theme-card">
+    <section className="bg-white border border-theme-periwinkle rounded-xl p-6 shadow-theme-card">
       {/* Section Header */}
       <div className="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>

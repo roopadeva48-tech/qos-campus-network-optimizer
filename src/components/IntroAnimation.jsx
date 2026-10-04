@@ -31,7 +31,7 @@ export default function IntroAnimation() {
         {/* Animated Logo Container */}
         <div className="relative w-28 h-28 mx-auto mb-6 flex items-center justify-center">
           <div className="absolute inset-0 border-2 border-dashed border-theme-lavender rounded-full animate-rotate-ring" />
-          <img src="/logo.svg" alt="QoS Logo" className="w-16 h-16 animate-float-logo" />
+          <img src="./logo.svg" alt="QoS Logo" className="w-16 h-16 animate-float-logo" />
         </div>
 
         {/* Title */}
